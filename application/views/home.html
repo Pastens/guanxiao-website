@@ -1,0 +1,25 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+    <!DOCTYPE html>
+    <html lang="zh-CN">
+
+    <head>
+        <?php $this->load->view('layout/head.html'); ?>
+        <link rel="stylesheet" type="text/css" href="<?=base_url()?>static/css/Icomoon/style.css">
+    </head>
+
+    <body>
+        <?php $this->load->view('layout/header.html') ?>
+        <?php $this->load->view('home/slider.html') ?>
+        <?php $this->load->view('home/newslist.html') ?>
+        <?php $this->load->view('home/banner.html') ?>
+        <?php $this->load->view('home/intro.html') ?>
+        <?php $this->load->view('layout/footer.html') ?>
+        <script type="text/javascript" src="<?=base_url()?>static/js/pop-up-gallery.js"></script>
+        <script type="text/javascript">
+	        $('.carousel').carousel({
+	            interval: 8000
+	        });
+	    </script>
+    </body>
+
+    </html>
