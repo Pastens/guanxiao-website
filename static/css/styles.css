@@ -713,7 +713,6 @@ Product Banner Parts
  */
 .product-banner {
   background: url("/static/img/product-banner.jpg") center center repeat-x;
-  height: 200px;
   padding-top: 53px;
 }
 .product-banner .breadcrumb {
@@ -724,14 +723,35 @@ Product Banner Parts
 .product-banner .breadcrumb a {
   color: #dedede;
   text-decoration: none;
+  font-weight: 300;
 }
 .product-banner .breadcrumb > .active {
   color: #bbbbbb;
+  font-weight: 300;
 }
 .product-banner p {
-  color: #efefef;
-  margin: 0 20px;
+  color: #dedede;
+  margin: 0 20px 60px;
+  line-height: 2em;
   text-indent: 2em;
+}
+
+/*
+Product Intro Parts
+ */
+.product-intro > .container-fluid:nth-of-type(odd) {
+  background-color: #dedede;
+}
+.product-intro > .container-fluid:nth-of-type(even) {
+  background-color: #ffffff;
+}
+.product-intro .intro-image {
+  text-align: center;
+}
+.product-intro .intro-image img {
+  max-width: 100%;
+  max-height: 150px;
+  margin: 0 auto;
 }
 
 /*

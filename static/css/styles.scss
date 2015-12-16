@@ -790,7 +790,6 @@ Product Banner Parts
     // background-image: url('/static/img/product-banner.jpg');
     // background-position: center center;
     // background-repeat: repeat-x;
-    height: 200px;
     padding-top: 53px;
     .breadcrumb {
         background-color: transparent;
@@ -799,18 +798,41 @@ Product Banner Parts
         a{
             color: #dedede;
             text-decoration: none;
+            font-weight: 300;
         }
         &>.active{
             color: #bbbbbb;
+            font-weight: 300;
         }
     }
     p{
-        color: #efefef;
-        margin: 0 20px;
+        color: #dedede;
+        margin: 0 20px 60px;
+        line-height: 2em;
         text-indent: 2em;
     }
 }
-
+/*
+Product Intro Parts
+ */
+.product-intro {
+    >.container-fluid{
+        &:nth-of-type(odd){
+            background-color: #dedede;
+        }
+        &:nth-of-type(even){
+            background-color: #ffffff;
+        }
+    }
+    .intro-image{
+        text-align: center;
+        img{
+            max-width:100%;
+            max-height: 150px;
+            margin: 0 auto;
+        }
+    }
+}
 
 /*
 Scroll Button Parts
