@@ -1,4 +1,9 @@
 /* Preset color */
+/* Global Fonts Setting */
+body {
+  font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 /* Selection Color */
 ::selection {
   background-color: #121212;
@@ -714,14 +719,19 @@ Product Banner Parts
 .product-banner .breadcrumb {
   background-color: transparent;
   border: none;
-  padding: 10px 0;
+  padding: 30px 0 0 0;
 }
 .product-banner .breadcrumb a {
-  color: #787878;
+  color: #dedede;
   text-decoration: none;
 }
+.product-banner .breadcrumb > .active {
+  color: #bbbbbb;
+}
 .product-banner p {
+  color: #efefef;
   margin: 0 20px;
+  text-indent: 2em;
 }
 
 /*

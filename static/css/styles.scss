@@ -6,6 +6,11 @@ $keyColor-1: rgba(255, 255, 255, 0.9);
 $keyColor-2: #dedede;
 $navHover: 3px solid #232323;
 
+/* Global Fonts Setting */
+body{
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 /* Selection Color */
 
 ::selection {
@@ -790,15 +795,19 @@ Product Banner Parts
     .breadcrumb {
         background-color: transparent;
         border: none;
-        padding: 10px 0;
+        padding: 30px 0 0 0;
         a{
-            color: #787878;
+            color: #dedede;
             text-decoration: none;
         }
+        &>.active{
+            color: #bbbbbb;
+        }
     }
-
     p{
+        color: #efefef;
         margin: 0 20px;
+        text-indent: 2em;
     }
 }
 
