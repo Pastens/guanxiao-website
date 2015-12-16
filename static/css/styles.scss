@@ -1,36 +1,23 @@
-/* Template-specific stuff
- *
- * Customizations just for the template; these are not necessary for anything
- * with disabling the responsiveness.
- */
-
-
-/* Non-responsive overrides
- *
- * Utilize the following CSS to disable the responsive-ness of the container,
- * grid system, and navbar.
- */
-
-
 /* Preset color */
 
-$selectionBg : #121212;
-$selectionText : #ffffff;
+$selectionBg: #121212;
+$selectionText: #ffffff;
 $keyColor-1: rgba(255, 255, 255, 0.9);
 $keyColor-2: #dedede;
-
 $navHover: 3px solid #232323;
 
 /* Selection Color */
-::selection{
-    background-color: $selectionBg ;
+
+::selection {
+    background-color: $selectionBg;
     color: $selectionText;
 }
+
 
 /* Reset the container */
 
 .container {
-    width: 970px;                                                                                                                                                                                                                                                                                                                                            
+    width: 970px;
     max-width: none !important;
     .navbar-header,
     .navbar-collapse {
@@ -71,37 +58,37 @@ $navHover: 3px solid #232323;
         background-color: $keyColor-1;
         border: none;
     }
-    .menu{
-        ul{
+    .menu {
+        ul {
             display: none;
-            width:110px;
+            width: 110px;
             background-color: $keyColor-1;
             padding: 0;
-            position:absolute;
+            position: absolute;
             list-style: none;
             text-align: center;
-            li{
+            li {
                 padding: 10px;
-                position:relative;
-                height:auto;
-                a{
+                position: relative;
+                height: auto;
+                a {
                     font-weight: 300;
                     text-decoration: none;
-                    &:hover{
-                        border-bottom:none;
+                    &:hover {
+                        border-bottom: none;
                     }
                 }
-                &:hover{
+                &:hover {
                     background-color: $keyColor-2;
                 }
             }
         }
-        &:hover{
-            >a{
+        &:hover {
+            >a {
                 border-bottom: $navHover;
             }
-            ul{
-                display:block;
+            ul {
+                display: block;
             }
         }
     }
@@ -348,7 +335,13 @@ $navHover: 3px solid #232323;
         }
     }
 }
-.slider{
+
+
+/*
+Slider Parts
+ */
+
+.slider {
     .carousel-inner {
         max-height: 800px;
         text-align: center;
@@ -394,7 +387,6 @@ $navHover: 3px solid #232323;
             }
         }
     }
-
     .carousel-control {
         width: 5%;
         z-index: 99;
@@ -403,34 +395,41 @@ $navHover: 3px solid #232323;
             background-image: none;
         }
     }
-
-    .carousel-indicators{
+    .carousel-indicators {
         bottom: 30px;
     }
 }
 
-.newslist{
+
+/*
+Newslist Part
+ */
+
+.newslist {
     height: 30px;
     background-color: #2f2f2f;
-    span,ul,li,a{
+    span,
+    ul,
+    li,
+    a {
         color: #d9d9d9;
     }
-    span{
+    span {
         margin: 0 10px;
         line-height: 30px;
     }
-    ul{
+    ul {
         padding: 0;
-        margin:0;
+        margin: 0;
         list-style: none;
-        >li{
+        >li {
             line-height: 30px;
             font-size: 12px;
-            display:block;
+            display: block;
             white-space: nowrap;
-            a{
-                display:inline-block;
-                overflow:hidden;
+            a {
+                display: inline-block;
+                overflow: hidden;
                 text-overflow: ellipsis;
                 max-width: 200px;
                 margin: 0 10px;
@@ -439,6 +438,11 @@ $navHover: 3px solid #232323;
         }
     }
 }
+
+
+/*
+Banner Parts
+ */
 
 .banner {
     padding: 30px 0;
@@ -476,6 +480,11 @@ $navHover: 3px solid #232323;
     }
 }
 
+
+/*
+Intro Parts
+ */
+
 .intro {
     h1,
     h2,
@@ -483,22 +492,22 @@ $navHover: 3px solid #232323;
         margin: 0;
         padding: 0;
     }
-    .pull-left{
+    .pull-left {
         float: none !important;
         text-align: left;
     }
-    .pull-right{
+    .pull-right {
         float: none !important;
         text-align: right;
     }
-    .container{
-        margin:50px auto;
+    .container {
+        margin: 50px auto;
     }
-    >.container-fluid{
-        &:nth-of-type(odd){
+    >.container-fluid {
+        &:nth-of-type(odd) {
             background-color: #efefef;
         }
-        &:nth-of-type(even){
+        &:nth-of-type(even) {
             // border-top: 2px dashed #cdcdcd;
             // border-bottom: 2px dashed #cdcdcd;
             background-color: #ffffff;
@@ -619,13 +628,13 @@ $navHover: 3px solid #232323;
             }
         }
     }
-    .wrap-context{
+    .wrap-context {
         padding: 0 60px;
-        h1{
+        h1 {
             font-size: 32px;
-            margin:10px 0 20px 0;
+            margin: 10px 0 20px 0;
         }
-        p{
+        p {
             font-size: 16px;
             text-indent: 2em;
             font-weight: 100;
@@ -766,67 +775,104 @@ $navHover: 3px solid #232323;
     }
 }
 
-.scroll{
-    .scroll-btn{
-        width:60px;
-        height:50px;
-        background:#565656;
-        color:#fff;
-        line-height:80px;
-        text-align:center;
-        position:fixed;
-        right:60px;
-        bottom:0;
-        cursor:pointer;
-        font-size:14px;
-        .glyphicon-chevron-up{
-            font-size: 30px;
-            font-weight: lighter;
-            color:#fff;
-            top:-6px;
+
+/*
+Product Banner Parts
+ */
+
+.product-banner {
+    background: url('/static/img/product-banner.jpg') center center repeat-x;
+    // background-image: url('/static/img/product-banner.jpg');
+    // background-position: center center;
+    // background-repeat: repeat-x;
+    height: 200px;
+    padding-top: 53px;
+    .breadcrumb {
+        background-color: transparent;
+        border: none;
+        padding: 10px 0;
+        a{
+            color: #787878;
+            text-decoration: none;
         }
     }
-    .scroll-line{
-        width:100%;
-        position:fixed;
-        bottom:0;
-        border-bottom:4px solid #565656;
+
+    p{
+        margin: 0 20px;
     }
 }
+
+
+/*
+Scroll Button Parts
+ */
+
+.scroll {
+    .scroll-btn {
+        width: 60px;
+        height: 50px;
+        background: #565656;
+        color: #fff;
+        line-height: 80px;
+        text-align: center;
+        position: fixed;
+        right: 60px;
+        bottom: 0;
+        cursor: pointer;
+        font-size: 14px;
+        .glyphicon-chevron-up {
+            font-size: 30px;
+            font-weight: lighter;
+            color: #fff;
+            top: -6px;
+        }
+    }
+    .scroll-line {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        border-bottom: 4px solid #565656;
+    }
+}
+
+
+/*
+Footer Parts
+ */
 
 .footer {
     color: #d9d9d9;
     background-color: #232323;
-    >.container{
-        >*{
+    >.container {
+        >* {
             margin: 20px 0 0;
         }
-        .brand-footer{
-            >*{
+        .brand-footer {
+            >* {
                 margin: 10px;
             }
-            img{
-                margin:0 10px 30px 0 ;
+            img {
+                margin: 0 10px 30px 0;
             }
-            p{
+            p {
                 font-size: 12px;
             }
-            a{
+            a {
                 font-size: 12px;
                 font-weight: 300;
                 color: #d9d9d9;
                 text-decoration: none;
             }
         }
-        .nav-footer{
+        .nav-footer {
             padding: 15px;
-            h1{
+            h1 {
                 font-size: 16px;
                 font-weight: 500;
                 padding: 0;
-                margin:0 0 15px;
+                margin: 0 0 15px;
             }
-            ul{
+            ul {
                 border-top: 1px solid #d9d9d9;
                 list-style: none;
                 padding: 0;
@@ -844,10 +890,7 @@ $navHover: 3px solid #232323;
 }
 
 
-
-
 /*Animation Defination*/
-
 
 @-webkit-keyframes jello {
     from,
@@ -1006,5 +1049,3 @@ $navHover: 3px solid #232323;
         opacity: 0;
     }
 }
-
-/*# sourceMappingURL=styles.css.map */
