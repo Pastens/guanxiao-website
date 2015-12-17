@@ -170,7 +170,8 @@ Product Banner Parts */
 .product-banner .breadcrumb { background-color: transparent; border: none; padding: 30px 0 0 0; }
 .product-banner .breadcrumb a { color: #dedede; text-decoration: none; font-weight: 300; }
 .product-banner .breadcrumb > .active { color: #bbbbbb; font-weight: 300; }
-.product-banner p { color: #dedede; margin: 0 20px 60px; line-height: 2em; text-indent: 2em; }
+.product-banner p { color: #dedede; margin: 0 20px; line-height: 2em; text-indent: 2em; }
+.product-banner .btn-default { margin: 0 10px 30px 10px; border-radius: 0; }
 
 /*
 Product Intro Parts */
@@ -178,7 +179,7 @@ Product Intro Parts */
 .product-intro .container-fluid:nth-of-type(even) { background-color: #ffffff; }
 .product-intro .intro-image { text-align: center; }
 .product-intro .intro-image img { max-width: 100%; max-height: 150px; padding: 20px 0; margin: 0 auto; }
-.product-intro .intro-content { padding: 30px; }
+.product-intro .intro-content { padding: 30px 30px 35px; }
 .product-intro .intro-content h1 { font-size: 24px; }
 .product-intro .intro-content p { font-size: 16px; margin: 10px 0; }
 

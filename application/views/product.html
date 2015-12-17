@@ -11,6 +11,22 @@
         <?php $this->load->view('product/banner.html') ?>
         <?php $this->load->view('product/intro.html') ?>
         <?php $this->load->view('layout/footer.html') ?>
+        <script type="text/javascript">
+            $(document).ready(function($) {
+                var image = $(".intro-image img");
+                image.hide();
+                fadeInAll(image.length-1,0);
+                function fadeInAll(n,index){
+                    if(index == n){
+                        $(".intro-image img:eq("+n+")").fadeIn(800);
+                    }else{
+                        $(".intro-image img:eq("+index+")").fadeIn(800,function(){
+                            fadeInAll(n,index+1);
+                        });
+                    }
+                }
+            });
+        </script>
     </body>
 
     </html>
