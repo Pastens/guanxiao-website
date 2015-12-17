@@ -739,10 +739,10 @@ Product Banner Parts
 /*
 Product Intro Parts
  */
-.product-intro > .container-fluid:nth-of-type(odd) {
-  background-color: #dedede;
+.product-intro .container-fluid:nth-of-type(odd) {
+  background-color: #efefef;
 }
-.product-intro > .container-fluid:nth-of-type(even) {
+.product-intro .container-fluid:nth-of-type(even) {
   background-color: #ffffff;
 }
 .product-intro .intro-image {
@@ -751,7 +751,18 @@ Product Intro Parts
 .product-intro .intro-image img {
   max-width: 100%;
   max-height: 150px;
+  padding: 20px 0;
   margin: 0 auto;
+}
+.product-intro .intro-content {
+  padding: 30px;
+}
+.product-intro .intro-content h1 {
+  font-size: 24px;
+}
+.product-intro .intro-content p {
+  font-size: 16px;
+  margin: 10px 0;
 }
 
 /*

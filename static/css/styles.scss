@@ -816,9 +816,9 @@ Product Banner Parts
 Product Intro Parts
  */
 .product-intro {
-    >.container-fluid{
+    .container-fluid{
         &:nth-of-type(odd){
-            background-color: #dedede;
+            background-color: #efefef;
         }
         &:nth-of-type(even){
             background-color: #ffffff;
@@ -829,7 +829,18 @@ Product Intro Parts
         img{
             max-width:100%;
             max-height: 150px;
+            padding: 20px 0;
             margin: 0 auto;
+        }
+    }
+    .intro-content{
+        padding: 30px;
+        h1{
+            font-size: 24px;
+        }
+        p{
+            font-size: 16px;
+            margin:10px 0;
         }
     }
 }
