@@ -130,39 +130,45 @@ Intro Parts */
 .intro .container { margin: 50px auto; }
 .intro > .container-fluid:nth-of-type(odd) { background-color: #efefef; }
 .intro > .container-fluid:nth-of-type(even) { background-color: #ffffff; }
-.intro > #fullscreen { background-color: rgba(0, 0, 0, 0.6); position: fixed; z-index: 999; left: 0px; top: 0px; height: 100%; width: 100%; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; display: none; }
-.intro > #fullscreen > #fullscreen-inner { position: relative; height: 100%; width: 100%; float: left; background-color: rgba(0, 0, 0, 0.3); }
-.intro > #fullscreen > #fullscreen-inner .fullscreen-inner-button { height: 35px; width: 35px; background-color: #343434; position: absolute; font-size: 18px; line-height: 35px; color: white; text-align: center; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
-.intro > #fullscreen > #fullscreen-inner .fullscreen-inner-button:hover { cursor: pointer; opacity: 0.8; }
-.intro > #fullscreen > #fullscreen-inner > #fullscreen-inner-left, .intro > #fullscreen > #fullscreen-inner > #fullscreen-inner-right { top: 50%; margin-top: -17.5px; }
-.intro > #fullscreen > #fullscreen-inner > #fullscreen-inner-left { left: 20px; }
-.intro > #fullscreen > #fullscreen-inner > #fullscreen-inner-right { right: 20px; }
-.intro > #fullscreen > #fullscreen-inner > #fullscreen-inner-close { top: 0px; right: 0px; margin: 20px 20px 0 0; }
-.intro > #fullscreen > #fullscreen-inner > #fullscreen-image { height: 667px; width: 1000px; margin-left: auto; margin-right: auto; margin-top: 50px; position: relative; }
-.intro > #fullscreen > #fullscreen-inner > #fullscreen-image img { position: absolute; left: 50%; top: 50%; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; -ms-transform: scale(1.5, 1.5); -webkit-transform: scale(1.5, 1.5); transform: scale(1.5, 1.5); opacity: 0; }
-.intro > #fullscreen > #fullscreen-inner > #fullscreen-image img:nth-child(1) { -ms-transform: translate(0, -30%) scale(0.6, 0.6); -webkit-transform: translate(0, -30%) scale(0.6, 0.6); transform: translate(0, -30%) scale(0.6, 0.6); z-index: 999; opacity: 0.2; }
-.intro > #fullscreen > #fullscreen-inner > #fullscreen-image img:nth-child(2) { -ms-transform: translate(0, -20%) scale(0.7, 0.7); -webkit-transform: translate(0, -20%) scale(0.7, 0.7); transform: translate(0, -20%) scale(0.7, 0.7); z-index: 999; opacity: 0.4; }
-.intro > #fullscreen > #fullscreen-inner > #fullscreen-image img:nth-child(3) { -ms-transform: translate(0, -10%) scale(0.8, 0.8); -webkit-transform: translate(0, -10%) scale(0.8, 0.8); transform: translate(0, -10%) scale(0.8, 0.8); z-index: 999; opacity: 0.6; }
-.intro > #fullscreen > #fullscreen-inner > #fullscreen-image img:nth-child(4) { -ms-transform: scale(0.9, 0.9); -webkit-transform: scale(0.9, 0.9); transform: scale(0.9, 0.9); z-index: 999; opacity: 0.8; }
-.intro > #fullscreen > #fullscreen-inner > #fullscreen-image img:nth-child(5) { -ms-transform: translate(0, 10%) scale(1, 1); -webkit-transform: translate(0, 10%) scale(1, 1); transform: translate(0, 10%) scale(1, 1); z-index: 999; opacity: 1; }
 .intro .wrap-context { padding: 0 60px; }
 .intro .wrap-context h1 { font-size: 32px; margin: 10px 0 20px 0; }
 .intro .wrap-context p { font-size: 16px; text-indent: 2em; font-weight: 100; }
-.intro .wrap-image { position: relative; height: 250px; }
-.intro .wrap-image img { width: 100%; height: 250px; position: absolute; left: 0; top: 0; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; -o-transition: all 0.3s; transition: all 0.3s; opacity: 0; }
-.intro .wrap-image img:nth-child(1), .intro .wrap-image img:nth-child(2), .intro .wrap-image img:nth-child(3), .intro .wrap-image img:nth-child(4) { opacity: 1; }
-.intro .wrap-image .wrapper-cover { width: 100%; height: 100%; position: absolute; left: 0; top: 0; background-color: rgba(0, 0, 0, 0.5); cursor: pointer; opacity: 0; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; -o-transition: all 0.3s; transition: all 0.3s; z-index: 1; }
-.intro .wrap-image .wrapper-cover .wrapper-hover { position: absolute; left: 50%; top: 50%; height: 50px; width: 50px; background-color: #dedede; font-size: 25px; line-height: 50px; color: #232323; text-align: center; margin-top: -25px; margin-left: -25px; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; -webkit-transform-origin: center; transform-origin: center; -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
-.intro .wrap-image:hover > .wrapper-cover { opacity: 1; -ms-transform: translate(0, 10%) scale(1, 1); -webkit-transform: translate(0, 10%) scale(1, 1); transform: translate(0, 10%) scale(1, 1); }
-.intro .wrap-image:hover .wrapper-hover { -webkit-animation-name: jello; animation-name: jello; }
-.intro .wrap-image:hover img:nth-child(1) { opacity: 0.4; -ms-transform: translate(0, -20%) scale(0.7, 0.7); -webkit-transform: translate(0, -20%) scale(0.7, 0.7); transform: translate(0, -20%) scale(0.7, 0.7); }
-.intro .wrap-image:hover img:nth-child(2) { opacity: 0.6; -ms-transform: translate(0, -10%) scale(0.8, 0.8); -webkit-transform: translate(0, -10%) scale(0.8, 0.8); transform: translate(0, -10%) scale(0.8, 0.8); }
-.intro .wrap-image:hover img:nth-child(3) { opacity: 0.8; -ms-transform: scale(0.9, 0.9); -webkit-transform: scale(0.9, 0.9); transform: scale(0.9, 0.9); }
-.intro .wrap-image:hover img:nth-child(4) { opacity: 1; -ms-transform: translate(0, 10%) scale(1, 1); -webkit-transform: translate(0, 10%) scale(1, 1); transform: translate(0, 10%) scale(1, 1); }
-.intro .fadeInDown { -webkit-animation-name: fadeInDown; animation-name: fadeInDown; -webkit-animation-delay: 0.3s; /* Chrome, Safari, Opera */ animation-delay: 0.3s; -webkit-animation-duration: 0.5s; animation-duration: 0.5s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
-.intro .fadeOutDown { -webkit-animation-name: fadeOutDown; animation-name: fadeOutDown; -webkit-animation-duration: 0.5s; animation-duration: 0.5s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
-.intro .fadeIn { -webkit-animation-name: fadeIn; animation-name: fadeIn; -webkit-animation-duration: 0.5s; animation-duration: 0.5s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
-.intro .fadeOut { -webkit-animation-name: fadeOut; animation-name: fadeOut; -webkit-animation-duration: 0.5s; animation-duration: 0.5s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
+
+#fullscreen { background-color: rgba(0, 0, 0, 0.6); position: fixed; z-index: 999; left: 0px; top: 0px; height: 100%; width: 100%; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; display: none; }
+#fullscreen > #fullscreen-inner { position: relative; height: 100%; width: 100%; float: left; background-color: rgba(0, 0, 0, 0.3); }
+#fullscreen > #fullscreen-inner .fullscreen-inner-button { height: 35px; width: 35px; background-color: #343434; position: absolute; font-size: 18px; line-height: 35px; color: white; text-align: center; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
+#fullscreen > #fullscreen-inner .fullscreen-inner-button:hover { cursor: pointer; opacity: 0.8; }
+#fullscreen > #fullscreen-inner > #fullscreen-inner-left, #fullscreen > #fullscreen-inner > #fullscreen-inner-right { top: 50%; margin-top: -17.5px; }
+#fullscreen > #fullscreen-inner > #fullscreen-inner-left { left: 20px; }
+#fullscreen > #fullscreen-inner > #fullscreen-inner-right { right: 20px; }
+#fullscreen > #fullscreen-inner > #fullscreen-inner-close { top: 0px; right: 0px; margin: 20px 20px 0 0; }
+#fullscreen > #fullscreen-inner > #fullscreen-image { height: 667px; width: 1000px; margin-left: auto; margin-right: auto; margin-top: 50px; position: relative; }
+#fullscreen > #fullscreen-inner > #fullscreen-image img { position: absolute; left: 50%; top: 50%; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; -ms-transform: scale(1.5, 1.5); -webkit-transform: scale(1.5, 1.5); transform: scale(1.5, 1.5); opacity: 0; }
+#fullscreen > #fullscreen-inner > #fullscreen-image img:nth-child(1) { -ms-transform: translate(0, -30%) scale(0.6, 0.6); -webkit-transform: translate(0, -30%) scale(0.6, 0.6); transform: translate(0, -30%) scale(0.6, 0.6); z-index: 999; opacity: 0.2; }
+#fullscreen > #fullscreen-inner > #fullscreen-image img:nth-child(2) { -ms-transform: translate(0, -20%) scale(0.7, 0.7); -webkit-transform: translate(0, -20%) scale(0.7, 0.7); transform: translate(0, -20%) scale(0.7, 0.7); z-index: 999; opacity: 0.4; }
+#fullscreen > #fullscreen-inner > #fullscreen-image img:nth-child(3) { -ms-transform: translate(0, -10%) scale(0.8, 0.8); -webkit-transform: translate(0, -10%) scale(0.8, 0.8); transform: translate(0, -10%) scale(0.8, 0.8); z-index: 999; opacity: 0.6; }
+#fullscreen > #fullscreen-inner > #fullscreen-image img:nth-child(4) { -ms-transform: scale(0.9, 0.9); -webkit-transform: scale(0.9, 0.9); transform: scale(0.9, 0.9); z-index: 999; opacity: 0.8; }
+#fullscreen > #fullscreen-inner > #fullscreen-image img:nth-child(5) { -ms-transform: translate(0, 10%) scale(1, 1); -webkit-transform: translate(0, 10%) scale(1, 1); transform: translate(0, 10%) scale(1, 1); z-index: 999; opacity: 1; }
+
+.wrap-image { position: relative; height: 250px; }
+.wrap-image img { width: 100%; height: 250px; position: absolute; left: 0; top: 0; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; -o-transition: all 0.3s; transition: all 0.3s; opacity: 0; }
+.wrap-image img:nth-child(1), .wrap-image img:nth-child(2), .wrap-image img:nth-child(3), .wrap-image img:nth-child(4) { opacity: 1; }
+.wrap-image .wrapper-cover { width: 100%; height: 100%; position: absolute; left: 0; top: 0; background-color: rgba(0, 0, 0, 0.5); cursor: pointer; opacity: 0; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; -o-transition: all 0.3s; transition: all 0.3s; z-index: 1; }
+.wrap-image .wrapper-cover .wrapper-hover { position: absolute; left: 50%; top: 50%; height: 50px; width: 50px; background-color: #dedede; font-size: 25px; line-height: 50px; color: #232323; text-align: center; margin-top: -25px; margin-left: -25px; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; -webkit-transform-origin: center; transform-origin: center; -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
+.wrap-image:hover > .wrapper-cover { opacity: 1; -ms-transform: translate(0, 10%) scale(1, 1); -webkit-transform: translate(0, 10%) scale(1, 1); transform: translate(0, 10%) scale(1, 1); }
+.wrap-image:hover .wrapper-hover { -webkit-animation-name: jello; animation-name: jello; }
+.wrap-image:hover img:nth-child(1) { opacity: 0.4; -ms-transform: translate(0, -20%) scale(0.7, 0.7); -webkit-transform: translate(0, -20%) scale(0.7, 0.7); transform: translate(0, -20%) scale(0.7, 0.7); }
+.wrap-image:hover img:nth-child(2) { opacity: 0.6; -ms-transform: translate(0, -10%) scale(0.8, 0.8); -webkit-transform: translate(0, -10%) scale(0.8, 0.8); transform: translate(0, -10%) scale(0.8, 0.8); }
+.wrap-image:hover img:nth-child(3) { opacity: 0.8; -ms-transform: scale(0.9, 0.9); -webkit-transform: scale(0.9, 0.9); transform: scale(0.9, 0.9); }
+.wrap-image:hover img:nth-child(4) { opacity: 1; -ms-transform: translate(0, 10%) scale(1, 1); -webkit-transform: translate(0, 10%) scale(1, 1); transform: translate(0, 10%) scale(1, 1); }
+
+.fadeInDown { -webkit-animation-name: fadeInDown; animation-name: fadeInDown; -webkit-animation-delay: 0.3s; /* Chrome, Safari, Opera */ animation-delay: 0.3s; -webkit-animation-duration: 0.5s; animation-duration: 0.5s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
+
+.fadeOutDown { -webkit-animation-name: fadeOutDown; animation-name: fadeOutDown; -webkit-animation-duration: 0.5s; animation-duration: 0.5s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
+
+.fadeIn { -webkit-animation-name: fadeIn; animation-name: fadeIn; -webkit-animation-duration: 0.5s; animation-duration: 0.5s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
+
+.fadeOut { -webkit-animation-name: fadeOut; animation-name: fadeOut; -webkit-animation-duration: 0.5s; animation-duration: 0.5s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
 
 /*
 Product Banner Parts */
@@ -175,13 +181,22 @@ Product Banner Parts */
 
 /*
 Product Intro Parts */
-.product-intro .container-fluid:nth-of-type(odd) { background-color: #efefef; }
-.product-intro .container-fluid:nth-of-type(even) { background-color: #ffffff; }
+.product-intro .container-fluid:nth-of-type(even) { background-color: #efefef; }
+.product-intro .container-fluid:nth-of-type(odd) { background-color: #ffffff; }
 .product-intro .intro-image { text-align: center; }
 .product-intro .intro-image img { max-width: 100%; max-height: 150px; padding: 20px 0; margin: 0 auto; }
 .product-intro .intro-content { padding: 30px 30px 35px; }
-.product-intro .intro-content h1 { font-size: 24px; }
-.product-intro .intro-content p { font-size: 16px; margin: 10px 0; }
+.product-intro .intro-content h1 { font-size: 20px; }
+.product-intro .intro-content p { font-size: 14px; margin: 10px 0; }
+.product-intro .platform-intro { padding: 30px; }
+.product-intro .platform-intro h1 { font-size: 24px; }
+.product-intro .platform-intro p { font-size: 16px; font-weight: 500; padding-left: 50px; }
+.product-intro .platform-intro ul { list-style: none; padding: 20px; margin: 0; }
+.product-intro .platform-intro ul > li { line-height: 2em; }
+.product-intro .platform-intro ul > li > p { font-size: 14px; font-weight: 400; padding: 0; text-indent: 2em; line-height: 2em; }
+.product-intro .platform-intro ul > li > em { display: block; font-size: 18px; font-style: normal; font-weight: 800; }
+.product-intro .wrap-image { margin: 40px 0; height: 200px; }
+.product-intro .wrap-image > img { height: 200px; }
 
 /*
 Scroll Button Parts */
