@@ -1,6 +1,5 @@
 /*
 Author: Liu Haocheng
-CopyRight: Mengzuke.com
 2015.2.7
 
 Instrument:
