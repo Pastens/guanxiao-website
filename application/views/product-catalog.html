@@ -1,0 +1,17 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+    <!DOCTYPE html>
+    <html lang="zh-CN">
+
+    <head>
+        <?php $this->load->view('layout/head.html'); ?>
+        <link rel="stylesheet" type="text/css" href="<?=base_url()?>static/css/Icomoon/style.css">
+    </head>
+
+    <body>
+        <?php $this->load->view('layout/header.html') ?>
+        <?php $this->load->view('product/banner.html') ?>
+        <?php $this->load->view('layout/footer.html') ?>
+        <script type="text/javascript" src="<?=base_url()?>static/js/pop-up-gallery.js"></script>
+    </body>
+
+    </html>
