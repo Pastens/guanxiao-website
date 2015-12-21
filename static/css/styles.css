@@ -194,7 +194,7 @@ Product Intro Parts */
 .product-intro .platform-intro ul { list-style: none; padding: 20px; margin: 0; }
 .product-intro .platform-intro ul > li { line-height: 2em; }
 .product-intro .platform-intro ul > li > p { font-size: 14px; font-weight: 400; padding: 0; text-indent: 2em; line-height: 2em; }
-.product-intro .platform-intro ul > li > em { display: block; font-size: 18px; font-style: normal; font-weight: 800; }
+.product-intro .platform-intro ul > li > em { display: block; font-size: 18px; font-style: normal; font-weight: 800; margin-bottom: 5px; }
 .product-intro .wrap-image { margin: 40px 0; height: 200px; }
 .product-intro .wrap-image > img { height: 200px; }
 
