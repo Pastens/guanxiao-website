@@ -3,15 +3,15 @@
     <html lang="zh-CN">
 
     <head>
-        <?php $this->load->view('layout/head.html'); ?>
+        <?php $this->load->view('layout/head'); ?>
         <link rel="stylesheet" type="text/css" href="<?=base_url()?>static/css/Icomoon/style.css">
     </head>
 
     <body>
-        <?php $this->load->view('layout/header.html') ?>
-        <?php $this->load->view('product/banner.html') ?>
-        <?php $this->load->view('product/intro.html') ?>
-        <?php $this->load->view('layout/footer.html') ?>
+        <?php $this->load->view('layout/header') ?>
+        <?php $this->load->view('product/banner') ?>
+        <?php $this->load->view('product/intro') ?>
+        <?php $this->load->view('layout/footer') ?>
         <script type="text/javascript" src="<?=base_url()?>static/js/pop-up-gallery.js"></script>
         <script type="text/javascript">
             $(document).ready(function($) {

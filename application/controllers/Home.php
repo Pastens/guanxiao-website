@@ -9,6 +9,6 @@ class Home extends CI_Controller {
 		$data['href'] = 'index';
 		
 		$this->load->helper('url');
-		$this->load->view('home.html',$data);
+		$this->load->view('home',$data);
 	}
 }

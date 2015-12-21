@@ -9,6 +9,6 @@ class Contact extends CI_Controller {
 		$data['href'] = 'contact';
 
 		$this->load->helper('url');
-		$this->load->view('home.html',$data);
+		$this->load->view('home',$data);
 	}
 }
