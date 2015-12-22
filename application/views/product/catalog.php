@@ -1,123 +1,68 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
     <section class="product-catalog container-fluid">
     	<div class="container">
-    		<div class="col-xs-9">
-    			<div class="media">
-    				<div class="media-left">
-    					<img class="media-object" src="..." alt="">
-    				</div>
-    				<div class="media-body">
-    					<h4 class="media-heading">GXCOA平台</h4>
-    					完成基本实验使用
-    				</div>
-    			</div>
-    		</div>
-    		<div class="col-xs-3">
-    			
-    		</div>
-    		<div class="row">
-	    		<div class="col-xs-4">
-	    			<a href="#" class="thumbnail">
-	    				<div class="caption">
-	    					<h3>GXCOA平台</h3>
-	    					<p>完成基本实验使用</p>
-	    				</div>
-	    			</a>
-	    		</div>
-	    		<div class="col-xs-4">
-	    			<a href="#" class="thumbnail">
-	    				<div class="caption">
-	    					<h3>GXCOB平台</h3>
-	    					<p>完成扩展实验使用</p>
-	    				</div>
-	    			</a>
-	    		</div>
-	    		<div class="col-xs-4">
-	    			<a href="#" class="thumbnail">
-	    				<div class="caption">
-	    					<h3>GXSSA平台</h3>
-	    					<p>可实现检测各种环境参数</p>
-	    				</div>
-	    			</a>
-	    		</div>
-    		</div>
-    		<div class="row">
-	    		<div class="col-xs-4">
-	    			<a href="#" class="thumbnail">
-	    				<div class="caption">
-	    					<h3>GXUDL平台</h3>
-	    					<p>实现程序更新与下载</p>
-	    				</div>
-	    			</a>
-	    		</div>
-	    		<div class="col-xs-4">
-	    			<a href="#" class="thumbnail">
-	    				<div class="caption">
-	    					<h3>六自由度机械臂</h3>
-	    					<p>可编程控制的机器臂</p>
-	    				</div>
-	    			</a>
-	    		</div>
-	    		<div class="col-xs-4">
-	    			<a href="#" class="thumbnail">
-	    				<div class="caption">
-	    					<h3>智能手套</h3>
-	    					<p>可感知力的转动、手指压力</p>
-	    				</div>
-	    			</a>
-	    		</div>
-    		</div>
-    		<div class="row">
-	    		<div class="col-xs-4">
-	    			<a href="#" class="thumbnail">
-	    				<div class="caption">
-	    					<h3>智能小车</h3>
-	    					<p>可编程控制的循迹避障智能小车</p>
-	    				</div>
-	    			</a>
-	    		</div>
-	    		<div class="col-xs-4">
-	    			<a href="#" class="thumbnail">
-	    				<div class="caption">
-	    					<h3>TFT真彩触摸屏</h3>
-	    					<p>可编程电阻触摸屏</p>
-	    				</div>
-	    			</a>
-	    		</div>
-	    		<div class="col-xs-4">
-	    			<a href="#" class="thumbnail">
-	    				<div class="caption">
-	    					<h3>LED闪字风扇灯</h3>
-	    					<p>可编程变速变字风扇灯</p>
-	    				</div>
-	    			</a>
-	    		</div>
-    		</div>
-    		<div class="row">
-	    		<div class="col-xs-4">
-	    			<a href="#" class="thumbnail">
-	    				<div class="caption">
-	    					<h3>脑电信号采集仪</h3>
-	    					<p>可检测人脑信号的专业设备</p>
-	    				</div>
-	    			</a>
-	    		</div>
-	    		<div class="col-xs-4">
-	    			<a href="#" class="thumbnail">
-	    				<div class="caption">
-	    					<h3>夜空表演服</h3>
-	    					<p>程控图案的舞台表演服</p>
-	    				</div>
-	    			</a>
-	    		</div>
-	    		<div class="col-xs-4">
-	    			<a href="#" class="thumbnail">
-	    				<div class="caption">
-	    					<h3>F-LED灯</h3>
-	    					<p>可编程可调色防水LED灯</p>
-	    				</div>
-	    			</a>
-	    		</div>
-    		</div>
+			<ul class="cd-hero-slider">
+				<li class="selected">
+					<div class="cd-half-width">
+						<h2>Slide title here</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
+						<a href="#0" class="cd-btn">Start</a>
+						<a href="#" class="cd-btn secondary">Learn More</a>
+					</div> <!-- .cd-half-width -->
+
+					<div class="cd-half-width cd-img-container">
+						<img src="assets/tech-1.jpg" alt="tech 1">
+					</div> <!-- .cd-half-width.cd-img-container -->
+				</li>
+
+				<li>
+					<div class="cd-half-width cd-img-container">
+						<img src="assets/tech-2.jpg" alt="tech 2">
+					</div> <!-- .cd-half-width.cd-img-container -->
+
+					<div class="cd-half-width">
+						<h2>Slide title here</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
+						<a href="#0" class="cd-btn">Start</a>
+						<a href="#" class="cd-btn secondary">Learn More</a>
+					</div> <!-- .cd-half-width -->
+					
+				</li>
+
+				<li class="cd-bg-video">
+					<div class="cd-full-width">
+						<h2>Slide title here</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, explicabo.</p>
+						<a href="#" class="cd-btn">Learn more</a>
+					</div> <!-- .cd-full-width -->
+
+					<div class="cd-bg-video-wrapper" data-video="assets/video/video">
+						<!-- video element will be loaded using jQuery -->
+					</div> <!-- .cd-bg-video-wrapper -->
+				</li>
+
+				<li>
+					<div class="cd-full-width">
+						<h2>Slide title here</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, explicabo.</p>
+						<a href="#0" class="cd-btn">Start</a>
+						<a href="#" class="cd-btn secondary">Learn More</a>
+					</div> <!-- .cd-full-width -->
+				</li>
+			</ul> <!-- .cd-hero-slider -->
+
+			<div class="cd-slider-nav">
+				<nav>
+					<span class="cd-marker item-1"></span>
+					
+					<ul>
+						<li class="selected"><a href="#0">Intro</a></li>
+						<li><a href="#0">Tech 1</a></li>
+						<li><a href="#0">Tech 2</a></li>
+						<li><a href="#0">Video</a></li>
+						<li><a href="#0">Image</a></li>
+					</ul>
+				</nav> 
+			</div> <!-- .cd-slider-nav -->
     	</div>
     </section>
