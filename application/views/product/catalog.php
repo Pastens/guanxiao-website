@@ -1,6 +1,20 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
     <section class="product-catalog container-fluid">
     	<div class="container">
+    		<div class="col-xs-9">
+    			<div class="media">
+    				<div class="media-left">
+    					<img class="media-object" src="..." alt="">
+    				</div>
+    				<div class="media-body">
+    					<h4 class="media-heading">GXCOA平台</h4>
+    					完成基本实验使用
+    				</div>
+    			</div>
+    		</div>
+    		<div class="col-xs-3">
+    			
+    		</div>
     		<div class="row">
 	    		<div class="col-xs-4">
 	    			<a href="#" class="thumbnail">

@@ -201,8 +201,6 @@ Product Intro Parts */
 
 /*
 Product Catalog Parts */
-.product-catalog a { text-decoration: none; }
-
 /*
 Scroll Button Parts */
 .scroll .scroll-btn { width: 60px; height: 50px; background: #565656; color: #fff; line-height: 80px; text-align: center; position: fixed; right: 60px; bottom: 0; cursor: pointer; font-size: 14px; }
