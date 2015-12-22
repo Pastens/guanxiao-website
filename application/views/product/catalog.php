@@ -1,5 +1,5 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
-    <section class="catalog container-fluid">
+    <section class="product-catalog container-fluid">
     	<div class="container">
     		<div class="row">
 	    		<div class="col-xs-4">
