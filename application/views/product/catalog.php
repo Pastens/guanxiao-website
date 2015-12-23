@@ -1,68 +1,68 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
     <section class="product-catalog container-fluid">
     	<div class="container">
-			<ul class="cd-hero-slider">
+			<ul class="hero-slider">
 				<li class="selected">
-					<div class="cd-half-width">
+					<div class="half-width">
 						<h2>Slide title here</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
-						<a href="#0" class="cd-btn">Start</a>
-						<a href="#" class="cd-btn secondary">Learn More</a>
-					</div> <!-- .cd-half-width -->
+						<a href="#" class="btn">Start</a>
+						<a href="#" class="btn secondary">Learn More</a>
+					</div> <!-- .half-width -->
 
-					<div class="cd-half-width cd-img-container">
+					<div class="half-width img-container">
 						<img src="assets/tech-1.jpg" alt="tech 1">
-					</div> <!-- .cd-half-width.cd-img-container -->
+					</div> <!-- .half-width.img-container -->
 				</li>
 
 				<li>
-					<div class="cd-half-width cd-img-container">
+					<div class="half-width img-container">
 						<img src="assets/tech-2.jpg" alt="tech 2">
-					</div> <!-- .cd-half-width.cd-img-container -->
+					</div> <!-- .half-width.img-container -->
 
-					<div class="cd-half-width">
+					<div class="half-width">
 						<h2>Slide title here</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
-						<a href="#0" class="cd-btn">Start</a>
-						<a href="#" class="cd-btn secondary">Learn More</a>
-					</div> <!-- .cd-half-width -->
+						<a href="#" class="btn">Start</a>
+						<a href="#" class="btn secondary">Learn More</a>
+					</div> <!-- .half-width -->
 					
 				</li>
 
-				<li class="cd-bg-video">
-					<div class="cd-full-width">
+				<li class="bg-video">
+					<div class="full-width">
 						<h2>Slide title here</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, explicabo.</p>
-						<a href="#" class="cd-btn">Learn more</a>
-					</div> <!-- .cd-full-width -->
+						<a href="#" class="btn">Learn more</a>
+					</div> <!-- .full-width -->
 
-					<div class="cd-bg-video-wrapper" data-video="assets/video/video">
+					<div class="bg-video-wrapper" data-video="assets/video/video">
 						<!-- video element will be loaded using jQuery -->
-					</div> <!-- .cd-bg-video-wrapper -->
+					</div> <!-- .bg-video-wrapper -->
 				</li>
 
 				<li>
-					<div class="cd-full-width">
+					<div class="full-width">
 						<h2>Slide title here</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, explicabo.</p>
-						<a href="#0" class="cd-btn">Start</a>
-						<a href="#" class="cd-btn secondary">Learn More</a>
-					</div> <!-- .cd-full-width -->
+						<a href="#" class="btn">Start</a>
+						<a href="#" class="btn secondary">Learn More</a>
+					</div> <!-- .full-width -->
 				</li>
-			</ul> <!-- .cd-hero-slider -->
+			</ul> <!-- .hero-slider -->
 
-			<div class="cd-slider-nav">
+			<div class="slider-nav">
 				<nav>
-					<span class="cd-marker item-1"></span>
+					<span class="marker item-1"></span>
 					
 					<ul>
-						<li class="selected"><a href="#0">Intro</a></li>
-						<li><a href="#0">Tech 1</a></li>
-						<li><a href="#0">Tech 2</a></li>
-						<li><a href="#0">Video</a></li>
-						<li><a href="#0">Image</a></li>
+						<li class="selected"><a href="#">Intro</a></li>
+						<li><a href="#">Tech 1</a></li>
+						<li><a href="#">Tech 2</a></li>
+						<li><a href="#">Video</a></li>
+						<li><a href="#">Image</a></li>
 					</ul>
 				</nav> 
-			</div> <!-- .cd-slider-nav -->
+			</div> <!-- .slider-nav -->
     	</div>
     </section>
